@@ -1,0 +1,5 @@
+{
+	"userActionsLogFile": "loggers/user_actions.log",
+	"programActionsLogFile": "loggers/program_actions.log",
+	"botName": "itsupport_service_bot"
+}

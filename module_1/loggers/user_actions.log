@@ -1,0 +1,6 @@
+[2026-03-16T12:40:50.641Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-03-16T12:42:41.817Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-03-16T12:51:56.266Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"❓Help"}
+[2026-03-16T12:52:39.226Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-03-16T12:52:59.479Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-03-16T12:53:00.241Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"❓Help"}

@@ -15,6 +15,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "grammy": "^1.41.1"
+    "grammy": "^1.41.1",
+    "natural": "^8.1.1"
   }
 }

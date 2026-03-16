@@ -41,6 +41,7 @@
       "@bot/*": ["src/bot/*"],
       "@configs/*": ["src/configs/*"],
       "@utils/*": ["src/utils/*"],
+      "@nlp/*": ["src/nlp/*"],
       "@constants": ["src/constants/index.ts"],
     }
   },

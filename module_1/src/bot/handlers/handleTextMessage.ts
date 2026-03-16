@@ -1,4 +1,5 @@
-import { COMMANDS } from "@constants";
+import { CATEGORIES, COMMANDS } from "@constants";
+import { classifyText } from "@nlp/model.js";
 import { logError, logUserAction } from "@utils/logger.js";
 import type { Context } from "grammy";
 
@@ -19,9 +20,15 @@ export const handleTextMessage = async (ctx: Context) => {
 			message: userInput,
 		});
 
+		const label = classifyText(userInput);
+		logUserAction("Request classified successfully", {
+			userId: ctx.from?.id,
+			category: CATEGORIES[label],
+		});
 		await ctx.reply(
-			`You wrote: "${userInput}". \n\n🤖 The analysis is still under development, but I have already logged this request.`,
+			`🤖 Request detected:\n\n"${userInput}"\n\nCategory: ${CATEGORIES[label]}`,
 		);
+		await ctx.reply("Are there any other requests?");
 	} catch (e) {
 		logError("Failed to process text message", {
 			userId: ctx.from?.id,

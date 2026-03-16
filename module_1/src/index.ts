@@ -1,6 +1,11 @@
 import { bot } from "@bot/bot.js";
-import { logProgramAction } from "@utils/logger.js";
+import { logError, logProgramAction } from "@utils/logger.js";
 
-bot.start();
-
-logProgramAction("Bot started successfully");
+try {
+	bot.start();
+	logProgramAction("Bot started successfully");
+} catch (e) {
+	const errorMessage = e instanceof Error ? e.message : String(e);
+	logError("Failed to start bot", { error: errorMessage });
+	process.exit(1);
+}

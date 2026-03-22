@@ -30,3 +30,14 @@
 [2026-03-16T22:41:23.684Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
 [2026-03-16T22:41:47.858Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"❓Help"}
 [2026-03-16T22:41:50.181Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-03-22T12:24:29.278Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-03-22T12:24:31.368Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-03-22T12:24:32.546Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-03-22T12:24:34.069Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"❓Help"}
+[2026-03-22T12:24:35.687Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-03-22T12:24:38.768Z] [INFO] Text message received | {"userId":458982187,"message":"How do I reset my password"}
+[2026-03-22T12:24:38.773Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-22T12:24:51.038Z] [INFO] Text message received | {"userId":458982187,"message":"I can't log into my account"}
+[2026-03-22T12:24:51.039Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-22T12:25:06.902Z] [INFO] Text message received | {"userId":458982187,"message":"How can i upgrade my plan"}
+[2026-03-22T12:25:06.908Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}

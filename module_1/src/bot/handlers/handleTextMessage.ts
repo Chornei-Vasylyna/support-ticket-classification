@@ -15,10 +15,44 @@ export const handleTextMessage = async (ctx: Context) => {
 		return;
 
 	try {
+		const trimmedInput = userInput.trim();
+
 		logUserAction("Text message received", {
 			userId: ctx.from?.id,
 			message: userInput,
 		});
+
+		const alnumChars = trimmedInput.match(/[\p{L}\p{N}]/gu) ?? [];
+
+		if (alnumChars.length === 0) {
+			logUserAction("Rejected message with only symbols", {
+				userId: ctx.from?.id,
+				message: userInput,
+			});
+			await ctx.reply("❌ Please send a valid text message, not only symbols");
+			return;
+		}
+
+		if (alnumChars.length === 1) {
+			logUserAction("Rejected message with single letter", {
+				userId: ctx.from?.id,
+				message: userInput,
+			});
+			await ctx.reply("❌ Please send a longer text message");
+			return;
+		}
+
+		if (trimmedInput.startsWith("/")) {
+			const knownSlashCommands = new Set(["/start", "/help", "/statistics"]);
+			if (!knownSlashCommands.has(trimmedInput)) {
+				logUserAction("Rejected unknown command", {
+					userId: ctx.from?.id,
+					message: userInput,
+				});
+				await ctx.reply("❌ Such a command does not exist");
+				return;
+			}
+		}
 
 		const label = classifyText(userInput);
 		logUserAction("Request classified successfully", {

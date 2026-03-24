@@ -8,7 +8,7 @@ export const handleStart = async (ctx: CommandContext<Context>) => {
 		command: ctx.message?.text,
 	});
 	await ctx.reply(
-		`Hi!👋\nYou're using the support service bot.\nSend your request below or use the menu.`,
+		"Hi!👋\nYou're using the support service bot.\n\nAvailable commands:\n/help\n/statistics\n\nSend your request below or use the menu.",
 		{ reply_markup: mainKeyboard },
 	);
 };

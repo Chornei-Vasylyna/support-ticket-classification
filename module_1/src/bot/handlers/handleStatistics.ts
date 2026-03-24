@@ -1,11 +1,11 @@
 import { getModelStats } from "@nlp/model.js";
 import { logUserAction } from "@utils/logger.js";
-import type { Context, HearsContext } from "grammy";
+import type { CommandContext, Context, HearsContext } from "grammy";
 
 const formatPercent = (value: number) => `${(value * 100).toFixed(2)}%`;
 
-export const handleStatistics = async (ctx: HearsContext<Context>) => {
-	logUserAction("User used a keyboard command", {
+export const handleStatistics = async (ctx: HearsContext<Context> | CommandContext<Context>) => {
+	logUserAction("User used a command", {
 		userId: ctx.from?.id,
 		command: ctx.message?.text,
 	});

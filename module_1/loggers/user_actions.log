@@ -41,3 +41,109 @@
 [2026-03-22T12:24:51.039Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
 [2026-03-22T12:25:06.902Z] [INFO] Text message received | {"userId":458982187,"message":"How can i upgrade my plan"}
 [2026-03-22T12:25:06.908Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-03-24T07:33:25.289Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-03-24T07:33:30.730Z] [INFO] Text message received | {"userId":458982187,"message":"The internet is not working"}
+[2026-03-24T07:33:30.733Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T07:49:37.576Z] [INFO] Text message received | {"userId":458982187,"message":"I need a utility bill"}
+[2026-03-24T07:49:37.577Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-03-24T07:51:23.319Z] [INFO] Text message received | {"userId":458982187,"message":"What is the support schedule?"}
+[2026-03-24T07:51:23.320Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T07:53:02.539Z] [INFO] Text message received | {"userId":458982187,"message":"The payment did not go through"}
+[2026-03-24T07:53:02.541Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-03-24T07:59:06.937Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-03-24T08:09:36.766Z] [INFO] Text message received | {"userId":458982187,"message":"The payment did not go through"}
+[2026-03-24T08:09:36.770Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-03-24T08:10:09.431Z] [INFO] Text message received | {"userId":458982187,"message":"ok"}
+[2026-03-24T08:10:09.433Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T08:10:21.289Z] [INFO] Text message received | {"userId":458982187,"message":"no"}
+[2026-03-24T08:10:21.291Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T08:28:02.182Z] [INFO] Text message received | {"userId":458982187,"message":"Hello, I’m experiencing a technical issue while using your platform and I need assistance. Every time I try to log into my account, the page keeps loading indefinitely and eventually shows an error message saying that the request has timed out. This started happening after the latest update, and before that everything was working fine.\n\nI have already tried clearing my browser cache, using a different browser, and even logging in from another device, but the problem still persists. In addition, when I attempt to reset my password, I do receive the email, but the reset link leads to a blank page, which makes it impossible to proceed further.\n\nAnother issue I noticed is that file uploads are not working correctly. When I try to upload a document, the progress bar gets stuck at around 60%, and after a while it just fails without any specific error description. This happens with different file types and sizes, so I don’t think it’s related to the file itself.\n\nCould you please check if there are any server-side issues or bugs related to authentication and file handling? Also, let me know if there is anything else I can try from my side to resolve this problem."}
+[2026-03-24T08:28:02.201Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T08:34:05.453Z] [INFO] Text message received | {"userId":458982187,"message":"помилка"}
+[2026-03-24T08:34:05.456Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T08:35:31.523Z] [INFO] Text message received | {"userId":458982187,"message":"п"}
+[2026-03-24T08:35:31.526Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T08:36:16.679Z] [INFO] Text message received | {"userId":458982187,"message":"!!!###@@@"}
+[2026-03-24T08:36:16.681Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T08:37:53.438Z] [INFO] Text message received | {"userId":458982187,"message":"payment 12345"}
+[2026-03-24T08:37:53.439Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-03-24T08:40:11.934Z] [INFO] Text message received | {"userId":458982187,"message":"🚫Wi-Fi does not work"}
+[2026-03-24T08:40:11.937Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T08:42:51.063Z] [INFO] Text message received | {"userId":458982187,"message":"p"}
+[2026-03-24T08:42:51.066Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T08:45:27.693Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"❓Help"}
+[2026-03-24T13:29:22.767Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-03-24T14:06:51.595Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-03-24T14:07:06.989Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-03-24T14:07:53.850Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-03-24T14:15:24.330Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:24.333Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:24.694Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:24.696Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:25.066Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:25.068Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:25.396Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:25.398Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:25.769Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:25.770Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:26.090Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:26.093Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:28.740Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:28.743Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:30.253Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:30.255Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:30.778Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:30.780Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:31.253Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:31.256Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T14:15:32.012Z] [INFO] Text message received | {"userId":458982187,"message":"Wi-Fi does not work"}
+[2026-03-24T14:15:32.015Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T15:05:50.676Z] [INFO] Text message received | {"userId":458982187,"message":"!!!###@@@"}
+[2026-03-24T15:05:50.680Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"!!!###@@@"}
+[2026-03-24T15:05:56.892Z] [INFO] Text message received | {"userId":458982187,"message":"!!!!"}
+[2026-03-24T15:05:56.894Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"!!!!"}
+[2026-03-24T15:05:59.804Z] [INFO] Text message received | {"userId":458982187,"message":"^^^f"}
+[2026-03-24T15:05:59.809Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T15:08:13.450Z] [INFO] Text message received | {"userId":458982187,"message":"^^^f"}
+[2026-03-24T15:08:13.460Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T15:08:23.653Z] [INFO] Text message received | {"userId":458982187,"message":"р"}
+[2026-03-24T15:08:23.657Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"р"}
+[2026-03-24T15:08:41.929Z] [INFO] Text message received | {"userId":458982187,"message":"^^^f"}
+[2026-03-24T15:08:41.934Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-24T15:09:56.758Z] [INFO] Text message received | {"userId":458982187,"message":"^^^f\""}
+[2026-03-24T15:09:56.764Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"^^^f\""}
+[2026-03-24T15:10:01.988Z] [INFO] Text message received | {"userId":458982187,"message":"р"}
+[2026-03-24T15:10:01.990Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"р"}
+[2026-03-24T15:10:05.036Z] [INFO] Text message received | {"userId":458982187,"message":"???"}
+[2026-03-24T15:10:05.038Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"???"}
+[2026-03-24T15:30:49.188Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"/stats"}
+[2026-03-24T15:30:58.510Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"/statistics"}
+[2026-03-24T15:31:03.528Z] [INFO] Text message received | {"userId":458982187,"message":"/hello"}
+[2026-03-24T15:31:03.530Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/hello"}
+[2026-03-24T15:33:30.565Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-03-24T15:33:33.592Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"/help"}
+[2026-03-24T15:33:35.918Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"/statistics"}
+[2026-03-24T15:33:47.661Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-03-24T15:35:49.167Z] [INFO] Text message received | {"userId":458982187,"message":"/goof"}
+[2026-03-24T15:35:49.169Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/goof"}
+[2026-03-24T15:36:09.321Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-03-24T15:36:11.849Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}
+[2026-03-24T17:14:31.661Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-24T17:14:31.662Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-03-24T17:38:12.149Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-24T17:38:12.150Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-03-24T17:38:46.240Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-24T17:38:46.241Z] [INFO] Request classified successfully | {"userId":123,"category":"ℹ️ Informational"}
+[2026-03-24T17:39:04.925Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-24T17:39:04.927Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-03-24T17:39:51.985Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-24T17:39:51.985Z] [INFO] Request classified successfully | {"userId":123,"category":"ℹ️ Informational"}
+[2026-03-24T17:40:05.882Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-24T17:40:05.883Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-03-24T17:44:54.758Z] [INFO] Text message received | {"userId":458982187,"message":"error"}
+[2026-03-24T17:44:54.763Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-24T17:45:23.555Z] [INFO] Text message received | {"userId":458982187,"message":"!!!###@@@"}
+[2026-03-24T17:45:23.556Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"!!!###@@@"}
+[2026-03-24T17:45:43.364Z] [INFO] Text message received | {"userId":458982187,"message":"/hello"}
+[2026-03-24T17:45:43.366Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/hello"}
+[2026-03-24T17:45:47.416Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}

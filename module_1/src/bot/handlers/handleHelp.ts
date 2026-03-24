@@ -1,8 +1,8 @@
 import { logUserAction } from "@utils/logger.js";
-import type { Context, HearsContext } from "grammy";
+import type { CommandContext, Context, HearsContext } from "grammy";
 
-export const handleHelp = async (ctx: HearsContext<Context>) => {
-	logUserAction("User used a keyboard command", {
+export const handleHelp = async (ctx: HearsContext<Context> | CommandContext<Context>) => {
+	logUserAction("User used a command", {
 		userId: ctx.from?.id,
 		command: ctx.message?.text,
 	});

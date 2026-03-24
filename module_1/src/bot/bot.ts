@@ -12,6 +12,8 @@ import { Bot } from "grammy";
 export const bot = new Bot(config.BOT_TOKEN);
 
 bot.command("start", handleStart);
+bot.command("help", handleHelp);
+bot.command("statistics", handleStatistics);
 
 bot.hears(COMMANDS.sendRequest, handleRequest);
 bot.hears(COMMANDS.statistics, handleStatistics);

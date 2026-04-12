@@ -147,3 +147,63 @@
 [2026-03-24T17:45:43.364Z] [INFO] Text message received | {"userId":458982187,"message":"/hello"}
 [2026-03-24T17:45:43.366Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/hello"}
 [2026-03-24T17:45:47.416Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}
+[2026-03-25T11:01:59.631Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}
+[2026-03-25T11:03:43.098Z] [INFO] User used a command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-03-25T11:10:53.408Z] [INFO] User used a command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-03-25T11:12:18.692Z] [INFO] Text message received | {"userId":458982187,"message":"What is customer support email?"}
+[2026-03-25T11:12:18.703Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-03-25T11:12:43.447Z] [INFO] Text message received | {"userId":458982187,"message":"I need to check my account balance"}
+[2026-03-25T11:12:43.456Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-03-25T11:13:13.091Z] [INFO] Text message received | {"userId":458982187,"message":"The software crashes when i try to open it"}
+[2026-03-25T11:13:13.094Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-03-25T11:15:42.325Z] [INFO] Text message received | {"userId":458982187,"message":"!!"}
+[2026-03-25T11:15:42.326Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"!!"}
+[2026-03-25T11:16:11.271Z] [INFO] Text message received | {"userId":458982187,"message":"p"}
+[2026-03-25T11:16:11.278Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"p"}
+[2026-03-25T11:16:12.720Z] [INFO] Text message received | {"userId":458982187,"message":"g"}
+[2026-03-25T11:16:12.723Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"g"}
+[2026-03-25T11:16:17.905Z] [INFO] Text message received | {"userId":458982187,"message":"!!f"}
+[2026-03-25T11:16:17.908Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"!!f"}
+[2026-03-25T11:17:14.600Z] [INFO] Text message received | {"userId":458982187,"message":"/stat"}
+[2026-03-25T11:17:14.604Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/stat"}
+[2026-03-25T11:19:40.752Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-03-25T11:19:40.753Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-04-10T06:41:50.117Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}
+[2026-04-10T06:41:57.573Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-04-10T06:44:56.252Z] [INFO] User started the bot | {"userId":7991912478,"command":"/start"}
+[2026-04-10T06:48:31.829Z] [INFO] User started the bot | {"userId":7991912478,"command":"/start"}
+[2026-04-10T06:48:49.396Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-04-10T06:49:17.762Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-04-10T06:49:22.143Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-04-10T13:49:56.369Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-04-10T13:50:08.108Z] [INFO] Text message received | {"userId":458982187,"message":"What is customer support email?"}
+[2026-04-10T13:50:08.117Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-04-10T13:55:49.437Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-04-10T13:55:56.815Z] [INFO] Text message received | {"userId":458982187,"message":"What is customer support email?"}
+[2026-04-10T13:55:56.816Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-04-10T14:04:04.554Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-04-10T14:04:07.425Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}
+[2026-04-10T14:04:09.149Z] [INFO] User used a command | {"userId":458982187,"command":"/statistics"}
+[2026-04-10T14:08:09.472Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-04-10T14:09:06.989Z] [INFO] User used a command | {"userId":458982187,"command":"❓Help"}
+[2026-04-10T14:10:09.009Z] [INFO] User used a command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-04-10T14:11:06.363Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-04-10T14:12:52.042Z] [INFO] Text message received | {"userId":458982187,"message":"I need to check my account balance"}
+[2026-04-10T14:12:52.043Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-04-10T14:18:03.377Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-04-10T14:21:23.520Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-04-10T14:21:34.740Z] [INFO] Received unsupported media type | {"userId":458982187}
+[2026-04-10T14:32:40.231Z] [INFO] Text message received | {"userId":458982187,"message":"!!!@"}
+[2026-04-10T14:32:40.232Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"!!!@"}
+[2026-04-10T14:34:19.902Z] [INFO] Text message received | {"userId":458982187,"message":"o"}
+[2026-04-10T14:34:19.904Z] [INFO] Rejected message with single letter | {"userId":458982187,"message":"o"}
+[2026-04-10T14:35:20.273Z] [INFO] Text message received | {"userId":458982187,"message":"/command"}
+[2026-04-10T14:35:20.275Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/command"}
+[2026-04-10T14:35:44.097Z] [INFO] Text message received | {"userId":458982187,"message":"/hello"}
+[2026-04-10T14:35:44.099Z] [INFO] Rejected unknown command | {"userId":458982187,"message":"/hello"}
+[2026-04-10T14:39:35.912Z] [INFO] Text message received | {"userId":458982187,"message":"I can't log in to my account"}
+[2026-04-10T14:39:35.917Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-04-10T14:41:08.045Z] [INFO] Text message received | {"userId":458982187,"message":"I need an invoice for my purchase"}
+[2026-04-10T14:41:08.047Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-04-10T14:41:47.257Z] [INFO] Text message received | {"userId":458982187,"message":"What are your working hours?"}
+[2026-04-10T14:41:47.260Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}

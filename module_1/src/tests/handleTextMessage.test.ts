@@ -9,7 +9,7 @@ const createContext = (text: string) => {
 		ctx: {
 			message: { text },
 			from: { id: 123 },
-			reply: async (message: string) => {
+			reply: async (message: string, _options?: unknown) => {
 				replies.push(message);
 			},
 		},

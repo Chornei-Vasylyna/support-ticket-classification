@@ -1,50 +1,55 @@
 {
-  "compilerOptions": {
-    // File Layout
-    "rootDir": "src",
-    "outDir": "./dist",
+	"compilerOptions": {
+		// File Layout
+		"rootDir": "src",
+		"outDir": "./dist",
 
-    // Environment Settings
-    "module": "nodenext",
-    "target": "esnext",
-    // For nodejs:
-    "lib": ["esnext"],
-    "types": ["node"],
+		// Environment Settings
+		"module": "nodenext",
+		"target": "esnext",
+		// For nodejs:
+		"lib": ["esnext"],
+		"types": ["node"],
 
-    // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+		// Other Outputs
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
 
-    // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+		// Stricter Typechecking Options
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
 
-    // Style Options
-    "noImplicitReturns": true,
-    "noImplicitOverride": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
+		// Style Options
+		"noImplicitReturns": true,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
 
-    // Recommended Options
-    "strict": true,
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
+		// Recommended Options
+		"strict": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedSideEffectImports": true,
+		"moduleDetection": "force",
+		"skipLibCheck": true,
 
-    "ignoreDeprecations": "6.0",
+		"ignoreDeprecations": "6.0",
 
-    "baseUrl": "./",
-    "paths": {
-      "@handlers/*": ["src/bot/handlers/*"],
-      "@bot/*": ["src/bot/*"],
-      "@configs/*": ["src/configs/*"],
-      "@utils/*": ["src/utils/*"],
-      "@nlp/*": ["src/nlp/*"],
-      "@constants": ["src/constants/index.ts"],
-    }
-  },
+		"baseUrl": "./",
+		"paths": {
+			"@handlers/*.js": ["src/bot/handlers/*.ts"],
+			"@handlers/*": ["src/bot/handlers/*"],
+			"@bot/*.js": ["src/bot/*.ts"],
+			"@bot/*": ["src/bot/*"],
+			"@configs/*.js": ["src/configs/*.ts"],
+			"@configs/*": ["src/configs/*"],
+			"@utils/*.js": ["src/utils/*.ts"],
+			"@utils/*": ["src/utils/*"],
+			"@nlp/*.js": ["src/nlp/*.ts"],
+			"@nlp/*": ["src/nlp/*"],
+			"@constants": ["src/constants/index.ts"]
+		}
+	}
 }

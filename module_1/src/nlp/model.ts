@@ -1,11 +1,12 @@
 import { logError, logProgramAction } from "@utils/logger.js";
 import { shuffleWithSeed } from "@utils/shuffle.js";
 import natural from "natural";
+import { feedbackStore } from "../feedback/store.js";
 import { SHUFFLE_SEED, TRAIN_RATIO } from "./constants.js";
 import { trainingData } from "./trainingData.js";
 import type { ModelStats, RequestLabel, TrainingExample } from "./types.js";
 
-const classifier = new natural.BayesClassifier();
+let classifier = new natural.BayesClassifier();
 
 const preprocess = (text: string) => text.toLowerCase();
 
@@ -30,20 +31,15 @@ const calculateStats = (examples: TrainingExample[]) => {
 	return { accuracy, total, correct };
 };
 
-try {
-	const shuffled = shuffleWithSeed(trainingData, SHUFFLE_SEED);
+const trainClassifier = (examples: TrainingExample[]) => {
+	const shuffled = shuffleWithSeed(examples, SHUFFLE_SEED);
 	const trainSize = Math.max(1, Math.floor(shuffled.length * TRAIN_RATIO));
 	const testSize = shuffled.length - trainSize;
 
 	const trainSet = shuffled.slice(0, trainSize);
 	const testSet = shuffled.slice(trainSize);
 
-	logProgramAction("Starting classifier training", {
-		examplesCount: trainingData.length,
-		trainSize,
-		testSize,
-		trainRatio: TRAIN_RATIO,
-	});
+	classifier = new natural.BayesClassifier();
 
 	trainSet.forEach((example: TrainingExample) => {
 		const text = preprocess(example.text);
@@ -51,8 +47,6 @@ try {
 	});
 
 	classifier.train();
-	logProgramAction("Classifier training completed successfully");
-
 	const stats = calculateStats(testSet);
 	modelStats = {
 		...stats,
@@ -60,13 +54,54 @@ try {
 		testSize,
 		trainRatio: TRAIN_RATIO,
 	};
-	logProgramAction("Classifier evaluation completed", {
-		accuracy: modelStats.accuracy,
-		total: modelStats.total,
-		correct: modelStats.correct,
-		trainSize: modelStats.trainSize,
-		testSize: modelStats.testSize,
+};
+
+const getAllTrainingData = () => {
+	const feedbackExamples = feedbackStore.getConfirmedTrainingExamples();
+	return [...trainingData, ...feedbackExamples];
+};
+
+export const retrainModelFromFeedback = () => {
+	try {
+		const all = getAllTrainingData();
+		logProgramAction("Retraining classifier (including feedback)", {
+			examplesCount: all.length,
+			feedbackExamples: all.length - trainingData.length,
+		});
+		trainClassifier(all);
+		if (modelStats) {
+			const { accuracy, total, correct } = modelStats;
+			logProgramAction("Classifier retrained successfully", {
+				accuracy,
+				total,
+				correct,
+			});
+		}
+	} catch (e) {
+		const errorMessage = e instanceof Error ? e.message : String(e);
+		logError("Failed to retrain classifier", { error: errorMessage });
+	}
+};
+
+try {
+	const all = getAllTrainingData();
+	logProgramAction("Starting classifier training", {
+		examplesCount: all.length,
+		feedbackExamples: all.length - trainingData.length,
+		trainRatio: TRAIN_RATIO,
 	});
+	trainClassifier(all);
+	logProgramAction("Classifier training completed successfully");
+	if (modelStats) {
+		const { accuracy, total, correct, trainSize, testSize } = modelStats;
+		logProgramAction("Classifier evaluation completed", {
+			accuracy,
+			total,
+			correct,
+			trainSize,
+			testSize,
+		});
+	}
 } catch (e) {
 	const errorMessage = e instanceof Error ? e.message : String(e);
 	logError("Failed to train classifier", { error: errorMessage });

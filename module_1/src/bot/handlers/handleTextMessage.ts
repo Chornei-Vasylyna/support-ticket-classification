@@ -2,6 +2,8 @@ import { CATEGORIES, COMMANDS } from "@constants";
 import { classifyText } from "@nlp/model.js";
 import { logError, logUserAction } from "@utils/logger.js";
 import type { Context } from "grammy";
+import { InlineKeyboard } from "grammy";
+import { feedbackStore } from "../../feedback/store.js";
 
 export const handleTextMessage = async (ctx: Context) => {
 	const userInput = ctx.message?.text;
@@ -43,7 +45,12 @@ export const handleTextMessage = async (ctx: Context) => {
 		}
 
 		if (trimmedInput.startsWith("/")) {
-			const knownSlashCommands = new Set(["/start", "/help", "/statistics"]);
+			const knownSlashCommands = new Set([
+				"/start",
+				"/help",
+				"/statistics",
+				"/history",
+			]);
 			if (!knownSlashCommands.has(trimmedInput)) {
 				logUserAction("Rejected unknown command", {
 					userId: ctx.from?.id,
@@ -55,12 +62,24 @@ export const handleTextMessage = async (ctx: Context) => {
 		}
 
 		const label = classifyText(userInput);
+		const userId = ctx.from?.id;
+		const recordId = feedbackStore.createPendingClassification({
+			userId,
+			text: userInput,
+			predictedLabel: label,
+		});
+
+		const feedbackKeyboard = new InlineKeyboard()
+			.text("✅ Correct", `fb:1:${recordId}`)
+			.text("❌ Incorrect", `fb:0:${recordId}`);
+
 		logUserAction("Request classified successfully", {
-			userId: ctx.from?.id,
+			userId,
 			category: CATEGORIES[label],
 		});
 		await ctx.reply(
 			`🤖 Request detected:\n\n"${userInput}"\n\nCategory: ${CATEGORIES[label]}`,
+			{ reply_markup: feedbackKeyboard },
 		);
 		await ctx.reply("Are there any other requests?");
 	} catch (e) {

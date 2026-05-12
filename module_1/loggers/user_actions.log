@@ -207,3 +207,27 @@
 [2026-04-10T14:41:08.047Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
 [2026-04-10T14:41:47.257Z] [INFO] Text message received | {"userId":458982187,"message":"What are your working hours?"}
 [2026-04-10T14:41:47.260Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-05-12T20:09:36.144Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T20:09:36.147Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T20:14:50.354Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-05-12T20:15:12.374Z] [INFO] Text message received | {"userId":458982187,"message":"I forgot my password"}
+[2026-05-12T20:15:12.387Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-05-12T20:21:34.208Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T20:21:34.209Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T20:22:41.328Z] [INFO] User submitted feedback | {"userId":123,"recordId":"0ddc209a-f839-4f7b-a661-65da67d6ac7f","result":"correct","predictedLabel":"technical"}
+[2026-05-12T20:22:41.332Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T20:22:41.332Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T20:23:41.344Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-05-12T20:23:47.950Z] [INFO] Text message received | {"userId":458982187,"message":"I forgot my password"}
+[2026-05-12T20:23:47.963Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-05-12T20:24:07.418Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-05-12T20:24:10.384Z] [INFO] Text message received | {"userId":458982187,"message":"I forgot my password"}
+[2026-05-12T20:24:10.408Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-05-12T20:24:14.341Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"1e591f6f-17c1-45c5-aade-8dfcab181d8c","result":"correct","predictedLabel":"technical"}
+[2026-05-12T20:36:47.273Z] [INFO] User submitted feedback | {"userId":123,"recordId":"b061ba22-82d6-4e63-82b4-96b9b32961ad","result":"correct","predictedLabel":"technical"}
+[2026-05-12T20:36:47.315Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T20:36:47.316Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T21:08:19.152Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-05-12T21:08:40.204Z] [INFO] Text message received | {"userId":458982187,"message":"I can't find my credit card"}
+[2026-05-12T21:08:40.233Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-05-12T21:09:33.257Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"589b46a9-f419-4320-9698-84f09da03d8d","result":"correct","predictedLabel":"financial"}

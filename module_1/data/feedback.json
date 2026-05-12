@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "d65744a9-2c11-40bf-91c3-ad06f1ffe1ed",
+      "userId": 458982187,
+      "text": "I forgot my password",
+      "predictedLabel": "technical",
+      "status": "pending",
+      "createdAt": "2026-05-12T20:15:12.376Z",
+      "updatedAt": "2026-05-12T20:15:12.376Z"
+    },
+    {
+      "id": "ec237ae0-9c57-4adb-a239-6b82bf946bb7",
+      "userId": 458982187,
+      "text": "I forgot my password",
+      "predictedLabel": "technical",
+      "status": "pending",
+      "createdAt": "2026-05-12T20:23:47.955Z",
+      "updatedAt": "2026-05-12T20:23:47.955Z"
+    },
+    {
+      "id": "1e591f6f-17c1-45c5-aade-8dfcab181d8c",
+      "userId": 458982187,
+      "text": "I forgot my password",
+      "predictedLabel": "technical",
+      "status": "correct",
+      "createdAt": "2026-05-12T20:24:10.393Z",
+      "updatedAt": "2026-05-12T20:24:14.332Z"
+    },
+    {
+      "id": "589b46a9-f419-4320-9698-84f09da03d8d",
+      "userId": 458982187,
+      "text": "I can't find my credit card",
+      "predictedLabel": "financial",
+      "status": "correct",
+      "createdAt": "2026-05-12T21:08:40.211Z",
+      "updatedAt": "2026-05-12T21:09:33.254Z"
+    }
+  ]
+}

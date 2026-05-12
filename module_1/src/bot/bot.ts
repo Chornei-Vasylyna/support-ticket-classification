@@ -1,7 +1,9 @@
 import { config } from "@configs/env.js";
 import { COMMANDS } from "@constants";
 import { handleError } from "@handlers/handleError.js";
+import { handleFeedback } from "@handlers/handleFeedback.js";
 import { handleHelp } from "@handlers/handleHelp.js";
+import { handleHistory } from "@handlers/handleHistory.js";
 import { handleInvalidMessage } from "@handlers/handleInvalidMessage.js";
 import { handleRequest } from "@handlers/handleRequest.js";
 import { handleStart } from "@handlers/handleStart.js";
@@ -14,6 +16,9 @@ export const bot = new Bot(config.BOT_TOKEN);
 bot.command("start", handleStart);
 bot.command("help", handleHelp);
 bot.command("statistics", handleStatistics);
+bot.command("history", handleHistory);
+
+bot.callbackQuery(/^fb:(0|1):/, handleFeedback);
 
 bot.hears(COMMANDS.sendRequest, handleRequest);
 bot.hears(COMMANDS.statistics, handleStatistics);

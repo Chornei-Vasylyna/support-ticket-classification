@@ -1,6 +1,6 @@
 import { CATEGORIES } from "@constants";
 import { logUserAction } from "@utils/logger.js";
-import type { CommandContext, Context } from "grammy";
+import type { CommandContext, Context, HearsContext } from "grammy";
 import { feedbackStore } from "../../feedback/store.js";
 
 const statusIcon = (status: string) => {
@@ -9,7 +9,9 @@ const statusIcon = (status: string) => {
 	return "⏳";
 };
 
-export const handleHistory = async (ctx: CommandContext<Context>) => {
+export const handleHistory = async (
+	ctx: HearsContext<Context> | CommandContext<Context>,
+) => {
 	logUserAction("User requested history", {
 		userId: ctx.from?.id,
 		command: ctx.message?.text,

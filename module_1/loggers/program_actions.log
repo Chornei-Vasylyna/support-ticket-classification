@@ -182,3 +182,77 @@
 [2026-05-12T21:08:06.397Z] [INFO] Bot started successfully
 [2026-05-12T21:09:33.368Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":257,"feedbackExamples":2}
 [2026-05-12T21:09:33.407Z] [INFO] Classifier retrained successfully | {"accuracy":0.8076923076923077,"total":52,"correct":42}
+[2026-05-12T21:14:47.029Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:14:47.050Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:14:47.050Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:14:47.066Z] [INFO] Bot started successfully
+[2026-05-12T21:16:39.597Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:16:39.647Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:16:39.647Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:16:39.666Z] [INFO] Bot started successfully
+[2026-05-12T21:17:56.359Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:17:56.396Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:17:56.397Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:17:56.428Z] [INFO] Bot started successfully
+[2026-05-12T21:32:39.798Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:32:39.802Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:32:39.804Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:32:39.828Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:32:39.829Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:32:39.832Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:32:39.833Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:32:39.836Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:32:39.836Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:32:39.847Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":258,"feedbackExamples":3}
+[2026-05-12T21:32:39.866Z] [INFO] Classifier retrained successfully | {"accuracy":0.8269230769230769,"total":52,"correct":43}
+[2026-05-12T21:39:11.901Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:39:11.924Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:39:11.924Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:39:11.937Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":258,"feedbackExamples":3}
+[2026-05-12T21:39:11.937Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:39:11.955Z] [INFO] Classifier retrained successfully | {"accuracy":0.8269230769230769,"total":52,"correct":43}
+[2026-05-12T21:39:11.965Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:39:11.966Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:41:32.281Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:41:32.282Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:41:32.303Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:41:32.304Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:41:32.311Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:41:32.311Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:41:32.312Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":258,"feedbackExamples":3}
+[2026-05-12T21:41:32.332Z] [INFO] Classifier retrained successfully | {"accuracy":0.8269230769230769,"total":52,"correct":43}
+[2026-05-12T21:41:32.341Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:41:32.371Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:41:32.371Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:41:32.380Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":258,"feedbackExamples":3}
+[2026-05-12T21:41:32.400Z] [INFO] Classifier retrained successfully | {"accuracy":0.8269230769230769,"total":52,"correct":43}
+[2026-05-12T21:42:23.371Z] [INFO] Starting classifier training | {"examplesCount":255,"feedbackExamples":0,"trainRatio":0.8}
+[2026-05-12T21:42:23.372Z] [INFO] Starting classifier training | {"examplesCount":255,"feedbackExamples":0,"trainRatio":0.8}
+[2026-05-12T21:42:23.384Z] [INFO] Starting classifier training | {"examplesCount":255,"feedbackExamples":0,"trainRatio":0.8}
+[2026-05-12T21:42:23.402Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:42:23.402Z] [INFO] Classifier evaluation completed | {"accuracy":0.8823529411764706,"total":51,"correct":45,"trainSize":204,"testSize":51}
+[2026-05-12T21:42:23.403Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:42:23.403Z] [INFO] Classifier evaluation completed | {"accuracy":0.8823529411764706,"total":51,"correct":45,"trainSize":204,"testSize":51}
+[2026-05-12T21:42:23.411Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:42:23.411Z] [INFO] Classifier evaluation completed | {"accuracy":0.8823529411764706,"total":51,"correct":45,"trainSize":204,"testSize":51}
+[2026-05-12T21:42:23.413Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":256,"feedbackExamples":1}
+[2026-05-12T21:42:23.414Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":256,"feedbackExamples":1}
+[2026-05-12T21:42:23.436Z] [INFO] Classifier retrained successfully | {"accuracy":0.8076923076923077,"total":52,"correct":42}
+[2026-05-12T21:42:23.437Z] [INFO] Classifier retrained successfully | {"accuracy":0.8076923076923077,"total":52,"correct":42}
+[2026-05-12T21:42:23.481Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T21:42:23.519Z] [INFO] Classifier training completed successfully
+[2026-05-12T21:42:23.519Z] [INFO] Classifier evaluation completed | {"accuracy":0.8076923076923077,"total":52,"correct":42,"trainSize":205,"testSize":52}
+[2026-05-12T21:42:23.522Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":258,"feedbackExamples":3}
+[2026-05-12T21:42:23.555Z] [INFO] Classifier retrained successfully | {"accuracy":0.8269230769230769,"total":52,"correct":43}
+[2026-05-12T22:09:10.070Z] [INFO] Starting classifier training | {"examplesCount":255,"feedbackExamples":0,"trainRatio":0.8}
+[2026-05-12T22:09:10.111Z] [INFO] Classifier training completed successfully
+[2026-05-12T22:09:10.112Z] [INFO] Classifier evaluation completed | {"accuracy":0.8823529411764706,"total":51,"correct":45,"trainSize":204,"testSize":51}
+[2026-05-12T22:09:10.128Z] [INFO] Bot started successfully
+[2026-05-12T22:09:58.719Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":256,"feedbackExamples":1}
+[2026-05-12T22:09:58.805Z] [INFO] Classifier retrained successfully | {"accuracy":0.8076923076923077,"total":52,"correct":42}
+[2026-05-12T22:12:55.664Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":257,"feedbackExamples":2}
+[2026-05-12T22:12:55.740Z] [INFO] Classifier retrained successfully | {"accuracy":0.7884615384615384,"total":52,"correct":41}
+[2026-05-12T22:13:36.320Z] [INFO] Starting classifier training | {"examplesCount":255,"feedbackExamples":0,"trainRatio":0.8}
+[2026-05-12T22:13:36.345Z] [INFO] Classifier training completed successfully
+[2026-05-12T22:13:36.346Z] [INFO] Classifier evaluation completed | {"accuracy":0.8823529411764706,"total":51,"correct":45,"trainSize":204,"testSize":51}
+[2026-05-12T22:13:36.365Z] [INFO] Bot started successfully

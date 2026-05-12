@@ -23,6 +23,7 @@ export const handleFeedback = async (ctx: Context) => {
 		const updated = feedbackStore.setFeedback(
 			parsed.recordId,
 			parsed.isCorrect ? "correct" : "incorrect",
+			ctx.from?.id,
 		);
 
 		if (!updated) {

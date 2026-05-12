@@ -10,9 +10,12 @@ export const handleTextMessage = async (ctx: Context) => {
 
 	if (
 		!userInput ||
-		[COMMANDS.sendRequest, COMMANDS.statistics, COMMANDS.help].includes(
-			userInput,
-		)
+		[
+			COMMANDS.sendRequest,
+			COMMANDS.statistics,
+			COMMANDS.help,
+			COMMANDS.history,
+		].includes(userInput)
 	)
 		return;
 

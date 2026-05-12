@@ -23,6 +23,7 @@ bot.callbackQuery(/^fb:(0|1):/, handleFeedback);
 bot.hears(COMMANDS.sendRequest, handleRequest);
 bot.hears(COMMANDS.statistics, handleStatistics);
 bot.hears(COMMANDS.help, handleHelp);
+bot.hears(COMMANDS.history, handleHistory);
 
 bot.on("message:text", handleTextMessage);
 bot.on("message", handleInvalidMessage);

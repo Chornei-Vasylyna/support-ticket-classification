@@ -2,40 +2,31 @@
   "version": 1,
   "records": [
     {
-      "id": "d65744a9-2c11-40bf-91c3-ad06f1ffe1ed",
+      "id": "072503fe-6c4e-45ba-a0ef-e95d24d20ab7",
       "userId": 458982187,
-      "text": "I forgot my password",
-      "predictedLabel": "technical",
-      "status": "pending",
-      "createdAt": "2026-05-12T20:15:12.376Z",
-      "updatedAt": "2026-05-12T20:15:12.376Z"
-    },
-    {
-      "id": "ec237ae0-9c57-4adb-a239-6b82bf946bb7",
-      "userId": 458982187,
-      "text": "I forgot my password",
-      "predictedLabel": "technical",
-      "status": "pending",
-      "createdAt": "2026-05-12T20:23:47.955Z",
-      "updatedAt": "2026-05-12T20:23:47.955Z"
-    },
-    {
-      "id": "1e591f6f-17c1-45c5-aade-8dfcab181d8c",
-      "userId": 458982187,
-      "text": "I forgot my password",
-      "predictedLabel": "technical",
+      "text": "I need a refund for my order",
+      "predictedLabel": "financial",
       "status": "correct",
-      "createdAt": "2026-05-12T20:24:10.393Z",
-      "updatedAt": "2026-05-12T20:24:14.332Z"
+      "createdAt": "2026-05-12T22:09:20.603Z",
+      "updatedAt": "2026-05-12T22:09:58.564Z"
     },
     {
-      "id": "589b46a9-f419-4320-9698-84f09da03d8d",
+      "id": "36356eba-e3cb-4158-aa94-c3f8f252fa23",
       "userId": 458982187,
       "text": "I can't find my credit card",
       "predictedLabel": "financial",
+      "status": "incorrect",
+      "createdAt": "2026-05-12T22:10:24.617Z",
+      "updatedAt": "2026-05-12T22:10:28.016Z"
+    },
+    {
+      "id": "7566d102-8fa5-4689-89ed-9e54684107bd",
+      "userId": 458982187,
+      "text": "In modern software systems, feedback collection and user interaction play a crucial role in improving overall performance and accuracy. When users interact with an application, every input, correction, or confirmation provides valuable data that can be used to refine algorithms and enhance decision-making processes. A well-designed feedback system allows developers to track not only successful outcomes but also incorrect classifications, edge cases, and unexpected behavior.\n\nFor example, in a text classification system, users may submit messages of varying length, complexity, and structure. Some inputs may contain meaningful sentences, while others might include symbols, very short words, or extremely long paragraphs. Handling all of these cases consistently is essential for maintaining system stability. Additionally, storing feedback such as \"correct\" or \"incorrect\" labels enables the model to gradually improve over time by learning from real user interactions.\n\nAnother important aspect is history tracking. Users often want to review their previous inputs and see how the system responded. This requires careful data storage and formatting, ensuring that long texts are properly truncated for display purposes while preserving full data in the backend. Without proper handling, the interface may become cluttered or difficult to read.\n\nEdge cases also need special attention. Inputs consisting only of special characters or extremely short messages should be validated before processing to avoid unnecessary computation or incorrect classifications. Similarly, systems must be robust against corrupted data files or unexpected modifications in storage structures.\n\nOverall, building a reliable feedback loop requires a combination of validation, storage management, and user-friendly presentation. When implemented correctly, it significantly enhances the quality of the system and ensures continuous improvement through real-world usage.",
+      "predictedLabel": "technical",
       "status": "correct",
-      "createdAt": "2026-05-12T21:08:40.211Z",
-      "updatedAt": "2026-05-12T21:09:33.254Z"
+      "createdAt": "2026-05-12T22:12:11.416Z",
+      "updatedAt": "2026-05-12T22:12:55.560Z"
     }
   ]
 }

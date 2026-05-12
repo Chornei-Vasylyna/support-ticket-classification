@@ -231,3 +231,71 @@
 [2026-05-12T21:08:40.204Z] [INFO] Text message received | {"userId":458982187,"message":"I can't find my credit card"}
 [2026-05-12T21:08:40.233Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
 [2026-05-12T21:09:33.257Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"589b46a9-f419-4320-9698-84f09da03d8d","result":"correct","predictedLabel":"financial"}
+[2026-05-12T21:15:01.061Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-05-12T21:15:10.345Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-05-12T21:15:16.554Z] [INFO] User requested history | {"userId":458982187,"command":"/history"}
+[2026-05-12T21:16:45.337Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-05-12T21:16:48.486Z] [INFO] User requested history | {"userId":458982187,"command":"/history"}
+[2026-05-12T21:16:51.302Z] [INFO] Text message received | {"userId":458982187,"message":"📜 History"}
+[2026-05-12T21:16:51.310Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-05-12T21:32:39.846Z] [INFO] User submitted feedback | {"userId":123,"recordId":"9cd297a2-e40b-40e3-929a-e3ffa0f4d285","result":"correct","predictedLabel":"technical"}
+[2026-05-12T21:32:39.902Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T21:32:39.903Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T21:32:39.911Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T21:32:39.912Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T21:32:39.915Z] [INFO] Text message received | {"userId":123,"message":"!!!@@@###"}
+[2026-05-12T21:32:39.916Z] [INFO] Rejected message with only symbols | {"userId":123,"message":"!!!@@@###"}
+[2026-05-12T21:32:39.917Z] [INFO] Text message received | {"userId":123,"message":"/unknown"}
+[2026-05-12T21:32:39.917Z] [INFO] Rejected unknown command | {"userId":123,"message":"/unknown"}
+[2026-05-12T21:32:39.918Z] [INFO] Text message received | {"userId":123,"message":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+[2026-05-12T21:32:39.919Z] [INFO] Rejected message exceeding max length | {"userId":123,"messageLength":1001,"maxLength":1000}
+[2026-05-12T21:32:39.920Z] [INFO] Text message received | {"userId":123,"message":"I can't log in to my account"}
+[2026-05-12T21:32:39.922Z] [INFO] Request classified successfully | {"userId":123,"category":"🛠️ Technical"}
+[2026-05-12T21:32:39.923Z] [INFO] Text message received | {"userId":123,"message":"  hello world  "}
+[2026-05-12T21:32:39.924Z] [INFO] Request classified successfully | {"userId":123,"category":"ℹ️ Informational"}
+[2026-05-12T21:32:39.925Z] [INFO] Text message received | {"userId":123,"message":"/random command"}
+[2026-05-12T21:32:39.925Z] [INFO] Rejected unknown command | {"userId":123,"message":"/random command"}
+[2026-05-12T21:39:11.934Z] [INFO] User submitted feedback | {"userId":123,"recordId":"67b45cbc-b2b2-46cd-83f0-18ce3cc5e350","result":"correct","predictedLabel":"technical"}
+[2026-05-12T21:39:12.027Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T21:39:12.028Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T21:41:32.311Z] [INFO] User submitted feedback | {"userId":123,"recordId":"dbf751c0-67dd-4f20-a3ac-cf14525438ec","result":"correct","predictedLabel":"technical"}
+[2026-05-12T21:41:32.379Z] [INFO] User submitted feedback | {"userId":101,"recordId":"4314cee4-e563-4a4b-8b34-4ab7f8344930","result":"correct","predictedLabel":"technical"}
+[2026-05-12T21:41:32.383Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T21:41:32.384Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T21:41:32.403Z] [INFO] User submitted feedback | {"userId":102,"recordId":"5b5763ca-e5db-4147-820c-b83bcdc6c256","result":"incorrect","predictedLabel":"technical"}
+[2026-05-12T21:41:32.405Z] [INFO] User requested history | {"userId":103,"command":"/history"}
+[2026-05-12T21:41:32.423Z] [INFO] User requested history | {"userId":104,"command":"/history"}
+[2026-05-12T21:41:32.423Z] [INFO] User requested history | {"userId":201,"command":"/history"}
+[2026-05-12T21:41:32.424Z] [INFO] User requested history | {"userId":202,"command":"/history"}
+[2026-05-12T21:41:32.425Z] [INFO] User requested history | {"userId":203,"command":"/history"}
+[2026-05-12T21:41:32.425Z] [INFO] User requested history | {"command":"/history"}
+[2026-05-12T21:42:23.412Z] [INFO] User submitted feedback | {"userId":123,"recordId":"a6d62a34-4421-47cb-8c47-8556209dc452","result":"correct","predictedLabel":"technical"}
+[2026-05-12T21:42:23.413Z] [INFO] User submitted feedback | {"userId":101,"recordId":"da4558e4-b57a-445e-9b17-d8a46ffa746b","result":"correct","predictedLabel":"technical"}
+[2026-05-12T21:42:23.438Z] [INFO] User submitted feedback | {"userId":102,"recordId":"477a114e-0369-4b12-8c7d-ac441d8d52f9","result":"incorrect","predictedLabel":"technical"}
+[2026-05-12T21:42:23.440Z] [INFO] User requested history | {"userId":103,"command":"/history"}
+[2026-05-12T21:42:23.466Z] [INFO] User requested history | {"userId":104,"command":"/history"}
+[2026-05-12T21:42:23.468Z] [INFO] User requested history | {"userId":201,"command":"/history"}
+[2026-05-12T21:42:23.469Z] [INFO] User requested history | {"userId":202,"command":"/history"}
+[2026-05-12T21:42:23.471Z] [INFO] User requested history | {"userId":203,"command":"/history"}
+[2026-05-12T21:42:23.472Z] [INFO] User requested history | {"command":"/history"}
+[2026-05-12T21:42:23.514Z] [INFO] Text message received | {"userId":123,"message":"a"}
+[2026-05-12T21:42:23.515Z] [INFO] Rejected message with single letter | {"userId":123,"message":"a"}
+[2026-05-12T21:42:23.520Z] [INFO] User submitted feedback | {"userId":403,"recordId":"a1c188ad-50d5-42c1-96e8-156ff3f4a6fc","result":"correct","predictedLabel":"technical"}
+[2026-05-12T22:01:56.951Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T22:09:20.602Z] [INFO] Text message received | {"userId":458982187,"message":"I need a refund for my order"}
+[2026-05-12T22:09:20.605Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-05-12T22:09:28.069Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T22:09:58.572Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"072503fe-6c4e-45ba-a0ef-e95d24d20ab7","result":"correct","predictedLabel":"financial"}
+[2026-05-12T22:10:24.616Z] [INFO] Text message received | {"userId":458982187,"message":"I can't find my credit card"}
+[2026-05-12T22:10:24.619Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-05-12T22:10:28.025Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"36356eba-e3cb-4158-aa94-c3f8f252fa23","result":"incorrect","predictedLabel":"financial"}
+[2026-05-12T22:12:11.399Z] [INFO] Text message received | {"userId":458982187,"message":"In modern software systems, feedback collection and user interaction play a crucial role in improving overall performance and accuracy. When users interact with an application, every input, correction, or confirmation provides valuable data that can be used to refine algorithms and enhance decision-making processes. A well-designed feedback system allows developers to track not only successful outcomes but also incorrect classifications, edge cases, and unexpected behavior.\n\nFor example, in a text classification system, users may submit messages of varying length, complexity, and structure. Some inputs may contain meaningful sentences, while others might include symbols, very short words, or extremely long paragraphs. Handling all of these cases consistently is essential for maintaining system stability. Additionally, storing feedback such as \"correct\" or \"incorrect\" labels enables the model to gradually improve over time by learning from real user interactions.\n\nAnother important aspect is history tracking. Users often want to review their previous inputs and see how the system responded. This requires careful data storage and formatting, ensuring that long texts are properly truncated for display purposes while preserving full data in the backend. Without proper handling, the interface may become cluttered or difficult to read.\n\nEdge cases also need special attention. Inputs consisting only of special characters or extremely short messages should be validated before processing to avoid unnecessary computation or incorrect classifications. Similarly, systems must be robust against corrupted data files or unexpected modifications in storage structures.\n\nOverall, building a reliable feedback loop requires a combination of validation, storage management, and user-friendly presentation. When implemented correctly, it significantly enhances the quality of the system and ensures continuous improvement through real-world usage."}
+[2026-05-12T22:12:11.422Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-05-12T22:12:24.726Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T22:12:46.636Z] [INFO] Text message received | {"userId":458982187,"message":"!!!@@@###"}
+[2026-05-12T22:12:46.638Z] [INFO] Rejected message with only symbols | {"userId":458982187,"message":"!!!@@@###"}
+[2026-05-12T22:12:55.566Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"7566d102-8fa5-4689-89ed-9e54684107bd","result":"correct","predictedLabel":"technical"}
+[2026-05-12T22:13:21.808Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T22:13:26.382Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T22:13:40.599Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T22:19:23.435Z] [INFO] User used a command | {"userId":458982187,"command":"❓Help"}

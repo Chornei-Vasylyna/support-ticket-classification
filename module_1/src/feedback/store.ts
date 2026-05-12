@@ -107,12 +107,15 @@ class FeedbackStore {
 	setFeedback(
 		recordId: string,
 		status: Exclude<FeedbackStatus, "pending">,
+		userId: number | undefined,
 	): FeedbackRecord | null {
+		if (typeof userId !== "number") return null;
 		const store = this.load();
 		let updated: FeedbackRecord | null = null;
 
 		const nextRecords = store.records.map((r) => {
 			if (r.id !== recordId) return r;
+			if (r.userId !== userId) return r;
 			updated = { ...r, status, updatedAt: new Date().toISOString() };
 			return updated;
 		});

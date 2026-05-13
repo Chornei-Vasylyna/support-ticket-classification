@@ -299,3 +299,30 @@
 [2026-05-12T22:13:26.382Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
 [2026-05-12T22:13:40.599Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
 [2026-05-12T22:19:23.435Z] [INFO] User used a command | {"userId":458982187,"command":"❓Help"}
+[2026-05-12T22:51:19.950Z] [INFO] User used a command | {"userId":458982187,"command":"📊 Statistics"}
+[2026-05-12T22:51:25.054Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-05-12T22:52:55.323Z] [INFO] User used a keyboard command | {"userId":458982187,"command":"📝 Send request"}
+[2026-05-12T22:52:57.879Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-05-12T22:55:00.156Z] [INFO] Text message received | {"userId":458982187,"message":"What is customer support email?"}
+[2026-05-12T22:55:00.181Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-05-12T23:00:32.950Z] [INFO] User started the bot | {"userId":458982187,"command":"/start"}
+[2026-05-12T23:00:34.746Z] [INFO] User used a command | {"userId":458982187,"command":"/help"}
+[2026-05-12T23:00:35.831Z] [INFO] User used a command | {"userId":458982187,"command":"/statistics"}
+[2026-05-12T23:00:37.145Z] [INFO] User requested history | {"userId":458982187,"command":"/history"}
+[2026-05-12T23:12:34.730Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T23:13:42.244Z] [INFO] User requested history | {"userId":458982187,"command":"📜 History"}
+[2026-05-12T23:18:03.413Z] [INFO] Text message received | {"userId":458982187,"message":"I can't log in to my account"}
+[2026-05-12T23:18:03.424Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-05-12T23:18:12.245Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"03762141-9d30-47d8-91f4-0413c428d9b8","result":"correct","predictedLabel":"technical"}
+[2026-05-12T23:18:44.383Z] [INFO] Text message received | {"userId":458982187,"message":"I can't log in to my account"}
+[2026-05-12T23:18:44.388Z] [INFO] Request classified successfully | {"userId":458982187,"category":"🛠️ Technical"}
+[2026-05-12T23:19:11.152Z] [INFO] Text message received | {"userId":458982187,"message":"I need an invoice for my purchase"}
+[2026-05-12T23:19:11.160Z] [INFO] Request classified successfully | {"userId":458982187,"category":"💰 Financial"}
+[2026-05-12T23:19:36.512Z] [INFO] Text message received | {"userId":458982187,"message":"What are your working hours"}
+[2026-05-12T23:19:36.521Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-05-12T23:19:42.751Z] [INFO] Text message received | {"userId":458982187,"message":"What are your working hours?"}
+[2026-05-12T23:19:42.762Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-05-12T23:21:35.992Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"65d6d628-cd8c-4612-8d3a-79981c58d7ac","result":"correct","predictedLabel":"informational"}
+[2026-05-12T23:22:33.083Z] [INFO] Text message received | {"userId":458982187,"message":"Лалалала"}
+[2026-05-12T23:22:33.095Z] [INFO] Request classified successfully | {"userId":458982187,"category":"ℹ️ Informational"}
+[2026-05-12T23:22:40.998Z] [INFO] User submitted feedback | {"userId":458982187,"recordId":"4afcf9c2-428b-40b0-a20e-228c77c59b04","result":"incorrect","predictedLabel":"informational"}

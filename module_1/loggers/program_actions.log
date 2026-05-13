@@ -256,3 +256,11 @@
 [2026-05-12T22:13:36.345Z] [INFO] Classifier training completed successfully
 [2026-05-12T22:13:36.346Z] [INFO] Classifier evaluation completed | {"accuracy":0.8823529411764706,"total":51,"correct":45,"trainSize":204,"testSize":51}
 [2026-05-12T22:13:36.365Z] [INFO] Bot started successfully
+[2026-05-12T22:51:19.707Z] [INFO] Starting classifier training | {"examplesCount":257,"feedbackExamples":2,"trainRatio":0.8}
+[2026-05-12T22:51:19.747Z] [INFO] Classifier training completed successfully
+[2026-05-12T22:51:19.748Z] [INFO] Classifier evaluation completed | {"accuracy":0.7884615384615384,"total":52,"correct":41,"trainSize":205,"testSize":52}
+[2026-05-12T22:51:19.767Z] [INFO] Bot started successfully
+[2026-05-12T23:18:12.341Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":258,"feedbackExamples":3}
+[2026-05-12T23:18:12.389Z] [INFO] Classifier retrained successfully | {"accuracy":0.8269230769230769,"total":52,"correct":43}
+[2026-05-12T23:21:36.327Z] [INFO] Retraining classifier (including feedback) | {"examplesCount":259,"feedbackExamples":4}
+[2026-05-12T23:21:36.410Z] [INFO] Classifier retrained successfully | {"accuracy":0.8461538461538461,"total":52,"correct":44}

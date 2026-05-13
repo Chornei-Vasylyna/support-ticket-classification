@@ -27,6 +27,69 @@
       "status": "correct",
       "createdAt": "2026-05-12T22:12:11.416Z",
       "updatedAt": "2026-05-12T22:12:55.560Z"
+    },
+    {
+      "id": "cacbf815-9c4e-4c91-ab86-c89d9ca000d7",
+      "userId": 458982187,
+      "text": "What is customer support email?",
+      "predictedLabel": "informational",
+      "status": "pending",
+      "createdAt": "2026-05-12T22:55:00.166Z",
+      "updatedAt": "2026-05-12T22:55:00.166Z"
+    },
+    {
+      "id": "03762141-9d30-47d8-91f4-0413c428d9b8",
+      "userId": 458982187,
+      "text": "I can't log in to my account",
+      "predictedLabel": "technical",
+      "status": "correct",
+      "createdAt": "2026-05-12T23:18:03.417Z",
+      "updatedAt": "2026-05-12T23:18:12.233Z"
+    },
+    {
+      "id": "07730b89-6c05-4338-8616-b5551a72d9e6",
+      "userId": 458982187,
+      "text": "I can't log in to my account",
+      "predictedLabel": "technical",
+      "status": "pending",
+      "createdAt": "2026-05-12T23:18:44.384Z",
+      "updatedAt": "2026-05-12T23:18:44.384Z"
+    },
+    {
+      "id": "4eada861-dc1f-4f44-a963-bffcdd1bce88",
+      "userId": 458982187,
+      "text": "I need an invoice for my purchase",
+      "predictedLabel": "financial",
+      "status": "pending",
+      "createdAt": "2026-05-12T23:19:11.152Z",
+      "updatedAt": "2026-05-12T23:19:11.152Z"
+    },
+    {
+      "id": "31d755fe-6b7d-4c79-9312-cf18e2e1fb6e",
+      "userId": 458982187,
+      "text": "What are your working hours",
+      "predictedLabel": "informational",
+      "status": "pending",
+      "createdAt": "2026-05-12T23:19:36.516Z",
+      "updatedAt": "2026-05-12T23:19:36.516Z"
+    },
+    {
+      "id": "65d6d628-cd8c-4612-8d3a-79981c58d7ac",
+      "userId": 458982187,
+      "text": "What are your working hours?",
+      "predictedLabel": "informational",
+      "status": "correct",
+      "createdAt": "2026-05-12T23:19:42.754Z",
+      "updatedAt": "2026-05-12T23:21:35.991Z"
+    },
+    {
+      "id": "4afcf9c2-428b-40b0-a20e-228c77c59b04",
+      "userId": 458982187,
+      "text": "Лалалала",
+      "predictedLabel": "informational",
+      "status": "incorrect",
+      "createdAt": "2026-05-12T23:22:33.091Z",
+      "updatedAt": "2026-05-12T23:22:40.990Z"
     }
   ]
 }
